@@ -1,0 +1,10 @@
+-  esound-common eliminar
+- busybox cambiar por busybox-static
+- cpp esta repetido 2 veces
+- Agregar cups-browsed
+- festival-freebsoft-utils tiene como depencia festival,  solo dejar  festival-freebsoft-utils
+- acpi-support (depende de acpi)-support-base (depende de acpi) eliminar acpi y support-base
+- e2fsprogs depende de  e2fslibs
+- empathy-common depende de empathy
+- isc-dhcp-common depende iproute / debianutil
+- rhythmbox ELIMINAR 
