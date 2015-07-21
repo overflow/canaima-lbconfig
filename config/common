@@ -121,7 +121,7 @@ _QUIET="false"
 # Internal stuff (FIXME)
 APT_OPTIONS="--yes --force-yes --allow-unauthenticated -o Acquire::Check-Valid-Until=false -o Acquire::Pdiffs=false"
 APTITUDE_OPTIONS="--assume-yes"
-DEBOOTSTRAP_OPTIONS="--verbose --debug"
+DEBOOTSTRAP_OPTIONS="--verbose"
 CDEBOOTSTRAP_OPTIONS=""
 GZIP_OPTIONS="-6 --rsyncable"
 ISOHYBRID_OPTIONS=""
