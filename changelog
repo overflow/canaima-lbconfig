@@ -1,0 +1,24 @@
+commit 2de185f50b84574d80a14cda5e891d8a71a5164a (HEAD, origin/master, origin/HEAD, master)
+Author: jose perez <sinfallas@gmail.com>
+Date:   Tue Jul 21 09:18:35 2015 -0430
+
+    * se elimina apache de la lista de paquetes
+
+commit fb0a4907fe905da74f3fccd19f6375184d2d7558
+Merge: 85682ca 61865d6
+Author: Orlando (overflow) Fiol <fiolorlando@gmail.com>
+Date:   Tue Jul 21 09:10:23 2015 -0430
+
+    Merge branch 'master' of https://github.com/overflow/canaima-lbconfig
+
+commit 85682cabd9d485cdc751e1cf52147b30f9073e94
+Author: Orlando (overflow) Fiol <fiolorlando@gmail.com>
+Date:   Tue Jul 21 09:05:09 2015 -0430
+
+    Configuracion inicial sin paquetes de canaima
+
+commit 61865d64baacce18af417929013f5b2606dde934
+Author: Orlando (overflow) Fiol <fiolorlando@gmail.com>
+Date:   Tue Jul 21 09:05:09 2015 -0430
+
+    Configuracion inicial sin repo debian
