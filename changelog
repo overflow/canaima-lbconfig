@@ -1,4 +1,35 @@
-commit 905a9c2fb8751caca0541a8b2ed15b401ac47bc6 (HEAD, master)
+commit 92a09370947b34969dba03763a6841885f6cc104 (HEAD, origin/master, origin/HEAD, master)
+Author: jose perez <sinfallas@gmail.com>
+Date:   Tue Jul 21 11:16:56 2015 -0430
+
+    * se agrega el proxy
+
+commit 3f7d05e8beeddf13e6176f4a821e6f1ae1975692
+Author: jose perez <sinfallas@gmail.com>
+Date:   Tue Jul 21 11:16:35 2015 -0430
+
+    * bugfix
+
+commit 65a2b6843a6dfd631a6467ecc8f90e76d3e0030f
+Merge: a262902 78d842f
+Author: jose perez <sinfallas@gmail.com>
+Date:   Tue Jul 21 11:15:19 2015 -0430
+
+    Merge branch 'master' of github.com:overflow/canaima-lbconfig
+
+commit 78d842f20e2ba1c66bdb6499dc63faaa5f6cbb0f
+Author: xombra <xombra.com@gmail.com>
+Date:   Tue Jul 21 10:41:40 2015 -0430
+
+    * otros cambios
+
+commit a26290231607d3ba8d6c5e6f5a44d7650cb39bbb
+Author: jose perez <sinfallas@gmail.com>
+Date:   Tue Jul 21 10:28:53 2015 -0430
+
+    * changelog
+
+commit 905a9c2fb8751caca0541a8b2ed15b401ac47bc6
 Author: jose perez <sinfallas@gmail.com>
 Date:   Tue Jul 21 10:28:40 2015 -0430
 
@@ -16,7 +47,13 @@ Date:   Tue Jul 21 09:40:28 2015 -0430
 
     * se crean carpetas necesarias en el robot
 
-commit b462ae0a9f9461677c839da6555efa01bc5f914d (origin/master, origin/HEAD)
+commit 0cfd74330d5e0da6e551895fabbc67643624f8b1
+Author: xombra <xombra.com@gmail.com>
+Date:   Tue Jul 21 09:37:49 2015 -0430
+
+    * elimiacion y sugerencias de cambios en paquetes y dependencias
+
+commit b462ae0a9f9461677c839da6555efa01bc5f914d
 Author: jose perez <sinfallas@gmail.com>
 Date:   Tue Jul 21 09:36:48 2015 -0430
 
