@@ -14,11 +14,11 @@ LB_PARENT_DEBIAN_INSTALLER_DISTRIBUTION="jessie"
 
 # $LB_PARENT_MIRROR_BOOTSTRAP: set parent mirror to bootstrap from
 # (Default: http://httpredir.debian.org/debian/)
-LB_PARENT_MIRROR_BOOTSTRAP="http://httpredir.debian.org/debian/"
+LB_PARENT_MIRROR_BOOTSTRAP="http://debian.cantv.net/debian/"
 
 # $LB_PARENT_MIRROR_CHROOT: set parent mirror to fetch packages from
 # (Default: http://httpredir.debian.org/debian/)
-LB_PARENT_MIRROR_CHROOT="http://httpredir.debian.org/debian/"
+LB_PARENT_MIRROR_CHROOT="http://debian.cantv.net/debian/"
 
 # $LB_PARENT_MIRROR_CHROOT_SECURITY: set security parent mirror to fetch packages from
 # (Default: http://security.debian.org/)
@@ -26,7 +26,7 @@ LB_PARENT_MIRROR_CHROOT_SECURITY="http://security.debian.org/"
 
 # $LB_PARENT_MIRROR_BINARY: set parent mirror which ends up in the image
 # (Default: http://http.debian.net/debian/)
-LB_PARENT_MIRROR_BINARY="http://httpredir.debian.org/debian/"
+LB_PARENT_MIRROR_BINARY="http://debian.cantv.net/debian/"
 
 # $LB_PARENT_MIRROR_BINARY_SECURITY: set security parent mirror which ends up in the image
 # (Default: http://security.debian.org/)
@@ -34,15 +34,15 @@ LB_PARENT_MIRROR_BINARY_SECURITY="http://security.debian.org/"
 
 # $LB_PARENT_MIRROR_DEBIAN_INSTALLER: set debian-installer parent mirror
 # (Default: http://httpredir.debian.org/debian/)
-LB_PARENT_MIRROR_DEBIAN_INSTALLER="http://httpredir.debian.org/debian/"
+LB_PARENT_MIRROR_DEBIAN_INSTALLER="http://debian.cantv.net/debian/"
 
 # $LB_MIRROR_BOOTSTRAP: set mirror to bootstrap from
 # (Default: http://httpredir.debian.org/debian/)
-LB_MIRROR_BOOTSTRAP="http://httpredir.debian.org/debian/"
+LB_MIRROR_BOOTSTRAP="http://debian.cantv.net/debian/"
 
 # $LB_MIRROR_CHROOT: set mirror to fetch packages from
 # (Default: http://httpredir.debian.org/debian/)
-LB_MIRROR_CHROOT="http://httpredir.debian.org/debian/"
+LB_MIRROR_CHROOT="http://debian.cantv.net/debian/"
 
 # $LB_MIRROR_CHROOT_SECURITY: set security mirror to fetch packages from
 # (Default: http://security.debian.org/)
@@ -50,7 +50,7 @@ LB_MIRROR_CHROOT_SECURITY="http://security.debian.org/"
 
 # $LB_MIRROR_BINARY: set mirror which ends up in the image
 # (Default: http://http.debian.net/debian/)
-LB_MIRROR_BINARY="http://http.debian.net/debian/"
+LB_MIRROR_BINARY="http://debian.cantv.net/debian/"
 
 # $LB_MIRROR_BINARY_SECURITY: set security mirror which ends up in the image
 # (Default: http://security.debian.org/)
@@ -58,7 +58,7 @@ LB_MIRROR_BINARY_SECURITY="http://security.debian.org/"
 
 # $LB_MIRROR_DEBIAN_INSTALLER: set debian-installer mirror
 # (Default: http://httpredir.debian.org/debian/)
-LB_MIRROR_DEBIAN_INSTALLER="http://httpredir.debian.org/debian/"
+LB_MIRROR_DEBIAN_INSTALLER="http://debian.cantv.net/debian/"
 
 # $LB_BOOTSTRAP_QEMU_ARCHITECTURES: architectures to use foreign bootstrap
 # (Default: )
