@@ -1,4 +1,16 @@
-commit 1124852a38bed7265019071938a9a7baa48a971f (HEAD, origin/master, origin/HEAD, master)
+commit 85ca86a8a225abcdc58987632562ba5f5b4f3a87 (HEAD, master)
+Author: jose perez <sinfallas@gmail.com>
+Date:   Tue Jul 21 09:40:28 2015 -0430
+
+    * se crean carpetas necesarias en el robot
+
+commit b462ae0a9f9461677c839da6555efa01bc5f914d (origin/master, origin/HEAD)
+Author: jose perez <sinfallas@gmail.com>
+Date:   Tue Jul 21 09:36:48 2015 -0430
+
+    * changelog
+
+commit 1124852a38bed7265019071938a9a7baa48a971f
 Author: jose perez <sinfallas@gmail.com>
 Date:   Tue Jul 21 09:36:32 2015 -0430
 
