@@ -1,4 +1,16 @@
-commit 85ca86a8a225abcdc58987632562ba5f5b4f3a87 (HEAD, master)
+commit 905a9c2fb8751caca0541a8b2ed15b401ac47bc6 (HEAD, master)
+Author: jose perez <sinfallas@gmail.com>
+Date:   Tue Jul 21 10:28:40 2015 -0430
+
+    * proxy
+
+commit 48181de62f692737d281bfee3f24184edf91c3e6
+Author: jose perez <sinfallas@gmail.com>
+Date:   Tue Jul 21 09:41:03 2015 -0430
+
+    * changelog
+
+commit 85ca86a8a225abcdc58987632562ba5f5b4f3a87
 Author: jose perez <sinfallas@gmail.com>
 Date:   Tue Jul 21 09:40:28 2015 -0430
 
