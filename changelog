@@ -1,4 +1,16 @@
-commit 2de185f50b84574d80a14cda5e891d8a71a5164a (HEAD, origin/master, origin/HEAD, master)
+commit 31ae1b9ed359ff6b0a8c175f13700c311aa8a3ab (HEAD, origin/master, origin/HEAD, master)
+Author: jose perez <sinfallas@gmail.com>
+Date:   Tue Jul 21 09:33:23 2015 -0430
+
+    * se cambia la informacion de los metadatos de la ISO
+
+commit 0424b4552b7b5fa0404dff5af0c30386b14c4220
+Author: jose perez <sinfallas@gmail.com>
+Date:   Tue Jul 21 09:18:53 2015 -0430
+
+    * changelog
+
+commit 2de185f50b84574d80a14cda5e891d8a71a5164a
 Author: jose perez <sinfallas@gmail.com>
 Date:   Tue Jul 21 09:18:35 2015 -0430
 
