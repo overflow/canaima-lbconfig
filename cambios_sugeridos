@@ -6,4 +6,5 @@
 - acpi-support (depende de acpi)-support-base (depende de acpi) eliminar acpi y support-base
 - e2fsprogs depende de  e2fslibs
 - empathy-common depende de empathy
-
+- isc-dhcp-common depende iproute / debianutil
+- rhythmbox ELIMINAR 
