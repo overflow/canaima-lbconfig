@@ -6,11 +6,11 @@ LB_APT="apt"
 
 # $LB_APT_FTP_PROXY: set apt/aptitude ftp proxy
 # (Default: autodetected or empty)
-LB_APT_FTP_PROXY="http://192.168.5.138:3142"
+LB_APT_FTP_PROXY="http://192.168.5.138"
 
 # $LB_APT_HTTP_PROXY: set apt/aptitude http proxy
 # (Default: autodetected or empty)
-LB_APT_HTTP_PROXY="http://192.168.5.138:3142"
+LB_APT_HTTP_PROXY="http://192.168.5.138"
 
 # $LB_APT_PIPELINE: set apt/aptitude pipeline depth
 # (Default: )
