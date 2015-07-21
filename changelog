@@ -1,4 +1,16 @@
-commit 97e087f68792f60635fa5a2a41758764501dbfb8 (HEAD, origin/master, origin/HEAD, master)
+commit 1124852a38bed7265019071938a9a7baa48a971f (HEAD, origin/master, origin/HEAD, master)
+Author: jose perez <sinfallas@gmail.com>
+Date:   Tue Jul 21 09:36:32 2015 -0430
+
+    * se elimina la configuracion del proxy
+
+commit fad8c6ab4b5b93850647168f534a2c59a562548c
+Author: jose perez <sinfallas@gmail.com>
+Date:   Tue Jul 21 09:36:05 2015 -0430
+
+    * changelog
+
+commit 97e087f68792f60635fa5a2a41758764501dbfb8
 Author: jose perez <sinfallas@gmail.com>
 Date:   Tue Jul 21 09:35:34 2015 -0430
 
