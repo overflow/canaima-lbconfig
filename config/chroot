@@ -30,7 +30,7 @@ LB_SECURITY="true"
 
 # $LB_UPDATES: enable updates updates
 # (Default: false)
-LB_UPDATES="false"
+LB_UPDATES="true"
 
 # $LB_BACKPORTS: enable backports updates
 # (Default: false)

@@ -2,7 +2,7 @@
 Architecture: amd64
 Archive-Areas: main contrib non-free
 Distribution: jessie
-Mirror-Bootstrap: http://httpredir.debian.org/debian/
+Mirror-Bootstrap: http://debian.cantv.net/debian/
 
 [FIXME]
 Configuration-Version: 4.0.3
