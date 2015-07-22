@@ -1,4 +1,64 @@
-commit 92a09370947b34969dba03763a6841885f6cc104 (HEAD, origin/master, origin/HEAD, master)
+commit 56c6bb29696755da2c7ca9480cece72f4cc61650 (HEAD, master)
+Author: jose perez <sinfallas@gmail.com>
+Date:   Wed Jul 22 14:52:22 2015 -0430
+
+    * se agrega una correcion a isolinux
+
+commit 80ed2a541b41328359691df45e17e554638f90a0 (origin/master, origin/HEAD)
+Author: Orlando (overflow) Fiol <fiolorlando@gmail.com>
+Date:   Tue Jul 21 16:23:14 2015 -0430
+
+    Corrige comilla faltate
+
+commit f98979134687edeabeee30bdbb717e66e7f2f9db
+Author: Orlando (overflow) Fiol <fiolorlando@gmail.com>
+Date:   Tue Jul 21 15:39:30 2015 -0430
+
+    Activa cache de indices
+
+commit 200e482de567b41baf75bdb98a7cfd610f7386ed
+Author: Orlando (overflow) Fiol <fiolorlando@gmail.com>
+Date:   Tue Jul 21 15:11:56 2015 -0430
+
+    Remueve --debug
+
+commit fc67cee23ab77b0e359d022a69f822a7ba718333
+Author: Orlando (overflow) Fiol <fiolorlando@gmail.com>
+Date:   Tue Jul 21 15:08:43 2015 -0430
+
+    Agregando --debug opcion para deboostrap
+
+commit 3ded674def6aa9ff71a537ab865c0c65f90ed54d
+Author: Orlando (overflow) Fiol <fiolorlando@gmail.com>
+Date:   Tue Jul 21 14:40:20 2015 -0430
+
+    Agrega verbosidad a debootstrap
+
+commit 61193c626a31efa8c3513c66f4c1c1da3c5ace52
+Author: Orlando (overflow) Fiol <fiolorlando@gmail.com>
+Date:   Tue Jul 21 14:12:13 2015 -0430
+
+    Cambia repositorios a debian.cantv.net
+
+commit 110aeb8ad021b5b30c699bc5b220769cfab5db9e
+Author: Orlando (overflow) Fiol <fiolorlando@gmail.com>
+Date:   Tue Jul 21 13:14:26 2015 -0430
+
+    Cambio a uso de proxy local apt-cacher-ng
+
+commit ca5ba42059573b991150b5289740645c3d52c56f
+Author: jose perez <sinfallas@gmail.com>
+Date:   Tue Jul 21 11:30:07 2015 -0430
+
+    * se agrega un archivo de paquetes propuestos
+
+commit 5de6b496a7233d0676a36997892430a503d368a4
+Author: jose perez <sinfallas@gmail.com>
+Date:   Tue Jul 21 11:17:16 2015 -0430
+
+    * changelog
+
+commit 92a09370947b34969dba03763a6841885f6cc104
 Author: jose perez <sinfallas@gmail.com>
 Date:   Tue Jul 21 11:16:56 2015 -0430
 
