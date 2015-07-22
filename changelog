@@ -1,4 +1,16 @@
-commit c346e0faa2ae617387fa7b7b09254de9dd30bfba (HEAD, origin/master, origin/HEAD, master)
+commit 7b6450d31e0ef13e107bac846d29a969d841808e (HEAD, origin/master, origin/HEAD, master)
+Author: jose perez <sinfallas@gmail.com>
+Date:   Wed Jul 22 16:07:32 2015 -0430
+
+    * se elimina el proxy
+
+commit 32b9f6203cf6a5d36ec60d343c75facec744691e
+Author: jose perez <sinfallas@gmail.com>
+Date:   Wed Jul 22 14:59:36 2015 -0430
+
+    * changelog
+
+commit c346e0faa2ae617387fa7b7b09254de9dd30bfba
 Author: jose perez <sinfallas@gmail.com>
 Date:   Wed Jul 22 14:59:15 2015 -0430
 
