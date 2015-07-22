@@ -1,10 +1,22 @@
-commit 56c6bb29696755da2c7ca9480cece72f4cc61650 (HEAD, master)
+commit c346e0faa2ae617387fa7b7b09254de9dd30bfba (HEAD, origin/master, origin/HEAD, master)
+Author: jose perez <sinfallas@gmail.com>
+Date:   Wed Jul 22 14:59:15 2015 -0430
+
+    * limpieza
+
+commit 2d59088d66a1f8499f75921685f6e4ab88e12c06
+Author: jose perez <sinfallas@gmail.com>
+Date:   Wed Jul 22 14:53:15 2015 -0430
+
+    * changelog
+
+commit 56c6bb29696755da2c7ca9480cece72f4cc61650
 Author: jose perez <sinfallas@gmail.com>
 Date:   Wed Jul 22 14:52:22 2015 -0430
 
     * se agrega una correcion a isolinux
 
-commit 80ed2a541b41328359691df45e17e554638f90a0 (origin/master, origin/HEAD)
+commit 80ed2a541b41328359691df45e17e554638f90a0
 Author: Orlando (overflow) Fiol <fiolorlando@gmail.com>
 Date:   Tue Jul 21 16:23:14 2015 -0430
 
