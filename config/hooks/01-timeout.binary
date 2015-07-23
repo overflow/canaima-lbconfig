@@ -1,0 +1,281 @@
+#!/bin/bash
+sed -i -e 's|timeout 0|timeout 50|' binary/isolinux/isolinux.cfg
+rm -f binary/isolinux/hdt.c32
+
+echo "                  0fBienvenido a Canaima GNU/Linux!07    09F107" > binary/isolinux/f1.txt
+echo "" >> binary/isolinux/f1.txt
+echo "" >> binary/isolinux/f1.txt
+echo "0fINDICE DE AYUDA07" >> binary/isolinux/f1.txt
+echo "" >> binary/isolinux/f1.txt
+echo "0fTECLA    TEMA07" >> binary/isolinux/f1.txt
+echo "" >> binary/isolinux/f1.txt
+echo "<09F107>   Esta pagina, indice de ayuda." >> binary/isolinux/f1.txt
+echo "<09F207>   Requerimientos minimos para Canaima." >> binary/isolinux/f1.txt
+echo "<09F307>   Metodos de arranque." >> binary/isolinux/f1.txt
+echo "<09F407>   Metodos de arranque II." >> binary/isolinux/f1.txt
+echo "<09F507>   Metodos de arranque III." >> binary/isolinux/f1.txt
+echo "<09F607>   Parametros especiales - Hardware." >> binary/isolinux/f1.txt
+echo "<09F707>   Parametros especiales - Unidades de disco." >> binary/isolinux/f1.txt
+echo "<09F807>   Persistencia." >> binary/isolinux/f1.txt
+echo "<09F907>   Que es Canaima GNU/Linux." >> binary/isolinux/f1.txt
+echo "<09F1107>  Copyrights." >> binary/isolinux/f1.txt
+echo "" >> binary/isolinux/f1.txt
+echo "" >> binary/isolinux/f1.txt
+echo "" >> binary/isolinux/f1.txt
+echo "" >> binary/isolinux/f1.txt
+echo "" >> binary/isolinux/f1.txt
+echo "Presione desde F2 hasta F10 para detalles, o ENTER para" >> binary/isolinux/f1.txt
+
+echo "0fREQUERIMIENTOS MINIMOS07                              09F207" > binary/isolinux/f2.txt
+echo "" >> binary/isolinux/f2.txt
+echo "" >> binary/isolinux/f2.txt
+echo "" >> binary/isolinux/f2.txt
+echo "512 Mb RAM (1 Gb RAM recomendado)" >> binary/isolinux/f2.txt
+echo "CPU a 1.0 Ghz (1.5 Ghz recomendado)" >> binary/isolinux/f2.txt
+echo "Resolucion 800x600, 16 Mb video RAM" >> binary/isolinux/f2.txt
+echo "BIOS con capacidad de arranque por USB o CD-ROM" >> binary/isolinux/f2.txt
+echo "5 Gb de capacidad de disco para instalar" >> binary/isolinux/f2.txt
+echo "" >> binary/isolinux/f2.txt
+echo "" >> binary/isolinux/f2.txt
+echo "" >> binary/isolinux/f2.txt
+echo "Algunas configuraciones pueden requerir de una NIC adicional" >> binary/isolinux/f2.txt
+echo "" >> binary/isolinux/f2.txt
+echo "" >> binary/isolinux/f2.txt
+echo "" >> binary/isolinux/f2.txt
+echo "El usuario es: user" >> f2.txt
+echo "La clave de user es: 123456" >> binary/isolinux/f2.txt
+echo "La clave de ROOT es: 123456" >> binary/isolinux/f2.txt
+echo "" >> binary/isolinux/f2.txt
+echo "" >> binary/isolinux/f2.txt
+echo "" >> binary/isolinux/f2.txt
+echo "Presione F1control y F luego 1 para ir al indice, o ENTER para" >> binary/isolinux/f2.txt
+
+echo "0fMETODOS DE ARRANQUE07                                 09F307" > binary/isolinux/f3.txt
+echo "" >> binary/isolinux/f3.txt
+echo "toram" >> binary/isolinux/f3.txt
+echo "" >> binary/isolinux/f3.txt
+echo "Al agregar este parametro, live-boot trata de copiar los medios" >> binary/isolinux/f3.txt
+echo "de solo lectura enteros en la memoria RAM del ordenador antes de montar" >> binary/isolinux/f3.txt
+echo "el sistema de ficheros raiz. Para esto puede ser necesaria mucha RAM," >> binary/isolinux/f3.txt
+echo "segun el espacio utilizado por los medios de solo lectura." >> binary/isolinux/f3.txt
+echo "" >> binary/isolinux/f3.txt
+echo "todisk=DEVICE" >> binary/isolinux/f3.txt
+echo "" >> binary/isolinux/f3.txt
+echo "Al agregar este parametro, live-boot tratara de copiar la totalidad" >> binary/isolinux/f3.txt
+echo "de medios de solo lectura en el dispositivo especificado antes de montar" >> binary/isolinux/f3.txt
+echo "el sistema de ficheros raiz. Probablemente hace falta una gran cantidad" >> binary/isolinux/f3.txt
+echo "de espacio libre. Los arranques posteriores deben saltar este paso" >> binary/isolinux/f3.txt
+echo "y basta con especificar el parametro de arranque 'live-media=DEVICE' " >> binary/isolinux/f3.txt
+echo "con el mismo DEVICE que se ha utilizado esta vez." >> binary/isolinux/f3.txt
+echo "" >> binary/isolinux/f3.txt
+echo "noeject" >> binary/isolinux/f3.txt
+echo "" >> binary/isolinux/f3.txt
+echo "No pide que se extraiga el dispositivo en vivo." >> binary/isolinux/f3.txt
+echo "" >> binary/isolinux/f3.txt
+echo "Presione F1control y F luego 1 para ir al indice, o ENTER para" >> binary/isolinux/f3.txt
+
+echo "0fMETODOS DE ARRANQUE II07                              09F407" > binary/isolinux/f4.txt
+echo "" >> binary/isolinux/f4.txt
+echo "nofastboot" >> binary/isolinux/f4.txt
+echo "Este parametro deshabilita la desactivacion por defecto de la" >> binary/isolinux/f4.txt
+echo "comprobacion del sistema de ficheros en /etc/fstab. Si hay" >> binary/isolinux/f4.txt
+echo "sistemas de ficheros estaticos en el disco duro y se desea" >> binary/isolinux/f4.txt
+echo "comprobarlos en el momento del arranque, utilizar este parametro," >> binary/isolinux/f4.txt
+echo "de lo contrario, se omite." >> binary/isolinux/f4.txt
+echo "" >> binary/isolinux/f4.txt
+echo "nopersistence" >> binary/isolinux/f4.txt
+echo "desactiva la 'persistencia', es util si el gestor de arranque" >> binary/isolinux/f4.txt
+echo "(como syslinux) se ha instalado con persistencia habilitada." >> binary/isolinux/f4.txt
+echo "" >> binary/isolinux/f4.txt
+echo "ramdisk-size" >> binary/isolinux/f4.txt
+echo "Este parametro permite establecer la capacidad de disco RAM" >> binary/isolinux/f4.txt
+echo "personalizado (que es la opcion '-o size' del montaje tmpfs)." >> binary/isolinux/f4.txt
+echo "No hay una capacidad de ramdisk predeterminada, por lo que se" >> binary/isolinux/f4.txt
+echo "aplica el valor por defecto (actualmente el 50% de la RAM disponible)" >> binary/isolinux/f4.txt
+echo "Tener  en  cuenta que esta opcion no tiene actualmente ningun" >> binary/isolinux/f4.txt
+echo "efecto cuando se arranca con toram" >> binary/isolinux/f4.txt
+echo "" >> binary/isolinux/f4.txt
+echo "" >> binary/isolinux/f4.txt
+echo "Presione F1control y F luego 1 para ir al indice, o ENTER para" >> binary/isolinux/f4.txt
+
+echo "0fMETODOS DE ARRANQUE III07                             09F507" > binary/isolinux/f5.txt
+echo "" >> binary/isolinux/f5.txt
+echo "locales=LOCALE1,LOCALE2...LOCALEn" >> binary/isolinux/f5.txt
+echo "Permite establecer las variantes locales del sistema," >> binary/isolinux/f5.txt
+echo "por omision es: en_US.UTF-8 En caso de que las variantes" >> binary/isolinux/f5.txt
+echo "locales no esten disponibles en el sistema, se generaran" >> binary/isolinux/f5.txt
+echo "sobre la marcha." >> binary/isolinux/f5.txt
+echo "" >> binary/isolinux/f5.txt
+echo "timezone=TIMEZONE" >> binary/isolinux/f5.txt
+echo "Permite establecer la zona horaria del sistema," >> binary/isolinux/f5.txt
+echo "p.ej. Europa/Madrid Por omision es UTC" >> binary/isolinux/f5.txt
+echo "" >> binary/isolinux/f5.txt
+echo "keyboard-model=KEYBOARD_MODEL" >> binary/isolinux/f5.txt
+echo "Permite cambiar el modelo de teclado. No hay ningun valor por omision." >> binary/isolinux/f5.txt
+echo "" >> binary/isolinux/f5.txt
+echo "" >> binary/isolinux/f5.txt
+echo "" >> binary/isolinux/f5.txt
+echo "" >> binary/isolinux/f5.txt
+echo "" >> binary/isolinux/f5.txt
+echo "" >> binary/isolinux/f5.txt
+echo "" >> binary/isolinux/f5.txt
+echo "" >> binary/isolinux/f5.txt
+echo "Presione F1control y F luego 1 para ir al indice, o ENTER para" >> binary/isolinux/f5.txt
+
+echo "0fPARAMETROS ESPECIALES - HARDWARE07                    09F607" > binary/isolinux/f6.txt
+echo "" >> binary/isolinux/f6.txt
+echo "Puede usar los siguientes parametros en prompt de arranque" >> binary/isolinux/f6.txt
+echo "en combinacion con los metodos de arranque" >> binary/isolinux/f6.txt
+echo "" >> binary/isolinux/f6.txt
+echo "Si usa numeros hexadecimales debe usar el prefijo 0x (ejem, 0x300)." >> binary/isolinux/f6.txt
+echo "0f" >> binary/isolinux/f6.txt
+echo "HARDWARE                               PARAMETRO07" >> binary/isolinux/f6.txt
+echo "IBM PS/1 o ValuePoint (Disco IDE)      0fhd=0bcylinders0f,0bheads0f,0bsectors07" >> binary/isolinux/f6.txt
+echo "Algunos IBM ThinkPads                  0ffloppy.floppy=thinkpad07" >> binary/isolinux/f6.txt
+echo "Protejer regiones de puerto I/O        0freserve=0biobase0f,0bextent07[0f,0b...07]" >> binary/isolinux/f6.txt
+echo "Laptops con problemas de pantalla      0fvga=77107" >> binary/isolinux/f6.txt
+echo "Usar primer puerto serial a 9600 baud  0fconsole=ttyS0,9600n807" >> binary/isolinux/f6.txt
+echo "Forzar uso de driver IDE generico      0fall_generic_ide=107" >> binary/isolinux/f6.txt
+echo "Posible (temporal) solucion para bloqueos y otras fallas de hardware:" >> binary/isolinux/f6.txt
+echo "Desactiva APIC                         0fnoapic nolapic07" >> binary/isolinux/f6.txt
+echo "Desactiva ACPI (parcialmente)          0facpi=noirq07 or 0facpi=off07" >> binary/isolinux/f6.txt
+echo "Desactiva USB                          0fnousb07" >> binary/isolinux/f6.txt
+echo "Agrupar interrupciones                 0firqpoll07" >> binary/isolinux/f6.txt
+echo "" >> binary/isolinux/f6.txt
+echo "" >> binary/isolinux/f6.txt
+echo "" >> binary/isolinux/f6.txt
+echo "Presione F1control y F luego 1 para ir al indice, o ENTER para" >> binary/isolinux/f6.txt
+
+echo "0fPARAMETROS ESPECIALES - UNIDADES DE DISCO07           09F707" > binary/isolinux/f7.txt
+echo "" >> binary/isolinux/f7.txt
+echo "Puede usar los siguientes parametros en prompt de arranque" >> binary/isolinux/f7.txt
+echo "en combinacion con los metodos de arranque" >> binary/isolinux/f7.txt
+echo "0f" >> binary/isolinux/f7.txt
+echo "HARDWARE                     PARAMETRO07" >> binary/isolinux/f7.txt
+echo "Adaptec 151x, 152x           0faha152x.aha152x=0biobase07[0f,0birq07[0f,0bscsi-id07[0f,0breconnect07]]]" >> binary/isolinux/f7.txt
+echo "Adaptec 1542                 0faha1542.aha1542=0biobase07[0f,0bbuson0f,0bbusoff07[0f,0bdmaspeed07]]" >> binary/isolinux/f7.txt
+echo "Adaptec 274x, 284x           0faic7xxx.aic7xxx=no_reset07    (enabled if non-zero)" >> binary/isolinux/f7.txt
+echo "BusLogic SCSI Hosts          0fBusLogic.BusLogic=0biobase07" >> binary/isolinux/f7.txt
+echo "Algunas maquinas DELL        0faic7xxx.aic7xxx=no_probe07" >> binary/isolinux/f7.txt
+echo "" >> binary/isolinux/f7.txt
+echo "" >> binary/isolinux/f7.txt
+echo "" >> binary/isolinux/f7.txt
+echo "Esta lista esta incompleta, vea la documentacion del kernel" >> binary/isolinux/f7.txt
+echo "para mayor informacion." >> binary/isolinux/f7.txt
+echo "" >> binary/isolinux/f7.txt
+echo "" >> binary/isolinux/f7.txt
+echo "" >> binary/isolinux/f7.txt
+echo "" >> binary/isolinux/f7.txt
+echo "" >> binary/isolinux/f7.txt
+echo "" >> binary/isolinux/f7.txt
+echo "Presione F1control y F luego 1 para ir al indice, o ENTER para" >> binary/isolinux/f7.txt
+
+echo "0fPERSISTENCIA07                                        09F807" > binary/isolinux/f8.txt
+echo "" >> binary/isolinux/f8.txt
+echo "Luego de copiar el contenido de la ISO a una memoria USB con el comando dd" >> binary/isolinux/f8.txt
+echo "debe crear una particion que ocupe la totalidad del espacio restante." >> binary/isolinux/f8.txt
+echo "" >> binary/isolinux/f8.txt
+echo "Para formatear una particion en ext4 con la etiqueta persistence" >> binary/isolinux/f8.txt
+echo "" >> binary/isolinux/f8.txt
+echo "# mkfs.ext4 -L persistence /dev/sdb1" >> binary/isolinux/f8.txt
+echo "" >> binary/isolinux/f8.txt
+echo "Si ya existe la particion, coloca la etiqueta correspondiente" >> binary/isolinux/f8.txt
+echo "" >> binary/isolinux/f8.txt
+echo "# tune2fs -L persistence /dev/sdb1" >> binary/isolinux/f8.txt
+echo "" >> binary/isolinux/f8.txt
+echo "NOTA: Cualquiera de los medios anteriormente creados necesita de un" >> binary/isolinux/f8.txt
+echo "fichero de configuracion (persistence.conf) ubicado en su respectiva" >> binary/isolinux/f8.txt
+echo "raiz, para crearlo puede seguir este ejemplo:" >> binary/isolinux/f8.txt
+echo "" >> binary/isolinux/f8.txt
+echo "# mount -t ext4 /dev/sdb1 /mnt" >> binary/isolinux/f8.txt
+echo "# echo '/home union' >> /mnt/persistence.conf" >> binary/isolinux/f8.txt
+echo "# umount /mnt" >> binary/isolinux/f8.txt
+echo "" >> binary/isolinux/f8.txt
+echo "" >> binary/isolinux/f8.txt
+echo "Presione F1control y F luego 1 para ir al indice, o ENTER para" >> binary/isolinux/f8.txt
+
+echo "0fQUE ES CANAIMA GNU/LINUX07                             09F907" > binary/isolinux/f9.txt
+echo "" >> binary/isolinux/f9.txt
+echo "" >> binary/isolinux/f9.txt
+echo "" >> binary/isolinux/f9.txt
+echo "" >> binary/isolinux/f9.txt
+echo "" >> binary/isolinux/f9.txt
+echo "" >> binary/isolinux/f9.txt
+echo "" >> binary/isolinux/f9.txt
+echo "" >> binary/isolinux/f9.txt
+echo "" >> binary/isolinux/f9.txt
+echo "" >> binary/isolinux/f9.txt
+echo "" >> binary/isolinux/f9.txt
+echo "" >> binary/isolinux/f9.txt
+echo "" >> binary/isolinux/f9.txt
+echo "" >> binary/isolinux/f9.txt
+echo "" >> binary/isolinux/f9.txt
+echo "" >> binary/isolinux/f9.txt
+echo "" >> binary/isolinux/f9.txt
+echo "" >> binary/isolinux/f9.txt
+echo "" >> binary/isolinux/f9.txt
+echo "" >> binary/isolinux/f9.txt
+echo "" >> binary/isolinux/f9.txt
+echo "Presione F1control y F luego 1 para ir al indice, o ENTER para" >> binary/isolinux/f9.txt
+
+echo "0fCOPYRIGHTS07                                          09F1107" > binary/isolinux/f10.txt
+echo "" >> binary/isolinux/f10.txt
+echo "" >> binary/isolinux/f10.txt
+echo "" >> binary/isolinux/f10.txt
+echo "" >> binary/isolinux/f10.txt
+echo "" >> binary/isolinux/f10.txt
+echo "" >> binary/isolinux/f10.txt
+echo "" >> binary/isolinux/f10.txt
+echo "" >> binary/isolinux/f10.txt
+echo "" >> binary/isolinux/f10.txt
+echo "" >> binary/isolinux/f10.txt
+echo "" >> binary/isolinux/f10.txt
+echo "" >> binary/isolinux/f10.txt
+echo "" >> binary/isolinux/f10.txt
+echo "" >> binary/isolinux/f10.txt
+echo "" >> binary/isolinux/f10.txt
+echo "" >> binary/isolinux/f10.txt
+echo "" >> binary/isolinux/f10.txt
+echo "" >> binary/isolinux/f10.txt
+echo "" >> binary/isolinux/f10.txt
+echo "" >> binary/isolinux/f10.txt
+echo "" >> binary/isolinux/f10.txt
+echo "Presione F1control y F luego 1 para ir al indice, o ENTER para" >> binary/isolinux/f10.txt
+
+echo "label menu" > binary/isolinux/exithelp.cfg
+echo "kernel vesamenu.c32" >> binary/isolinux/exithelp.cfg
+echo "config isolinux.cfg" >> binary/isolinux/exithelp.cfg
+
+echo "prompt 1" > binary/isolinux/prompt.cfg
+echo "display f1.txt" >> binary/isolinux/prompt.cfg
+echo "timeout 0" >> binary/isolinux/prompt.cfg
+echo "include menu.cfg" >> binary/isolinux/prompt.cfg
+echo "include exithelp.cfg" >> binary/isolinux/prompt.cfg
+echo "" >> binary/isolinux/prompt.cfg
+echo "f1 f1.txt" >> binary/isolinux/prompt.cfg
+echo "f2 f2.txt" >> binary/isolinux/prompt.cfg
+echo "f3 f3.txt" >> binary/isolinux/prompt.cfg
+echo "f4 f4.txt" >> binary/isolinux/prompt.cfg
+echo "f5 f5.txt" >> binary/isolinux/prompt.cfg
+echo "f6 f6.txt" >> binary/isolinux/prompt.cfg
+echo "f7 f7.txt" >> binary/isolinux/prompt.cfg
+echo "f8 f8.txt" >> binary/isolinux/prompt.cfg
+echo "f9 f9.txt" >> binary/isolinux/prompt.cfg
+echo "f0 f10.txt" >> binary/isolinux/prompt.cfg
+
+echo "menu background splash.png" > binary/isolinux/stdmenu.cfg
+echo "menu color title	* #FFFFFFFF *" >> binary/isolinux/stdmenu.cfg
+echo "menu color border	* #00000000 #00000000 none" >> binary/isolinux/stdmenu.cfg
+echo "menu color sel		* #ffffffff #76a1d0ff *" >> binary/isolinux/stdmenu.cfg
+echo "menu color hotsel	1;7;37;40 #ffffffff #76a1d0ff *" >> binary/isolinux/stdmenu.cfg
+echo "menu color tabmsg	* #ffffffff #00000000 *" >> binary/isolinux/stdmenu.cfg
+echo "menu color help		37;40 #ffdddd00 #00000000 none" >> binary/isolinux/stdmenu.cfg
+echo "menu vshift 12" >> binary/isolinux/stdmenu.cfg
+echo "menu rows 10" >> binary/isolinux/stdmenu.cfg
+echo "menu helpmsgrow 15" >> binary/isolinux/stdmenu.cfg
+echo "# The command line must be at least one line from the bottom." >> binary/isolinux/stdmenu.cfg
+echo "menu cmdlinerow 16" >> binary/isolinux/stdmenu.cfg
+echo "menu timeoutrow 16" >> binary/isolinux/stdmenu.cfg
+echo "menu tabmsgrow 18" >> binary/isolinux/stdmenu.cfg
+echo "menu tabmsg Presione ENTER para iniciar o TAB para editar el menu seleccionado" >> binary/isolinux/stdmenu.cfg
+echo "menu autoboot Arranque automatico en #" >> binary/isolinux/stdmenu.cfg
