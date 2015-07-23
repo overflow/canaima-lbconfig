@@ -1,4 +1,16 @@
-commit 300ec6f995722ded9852589a4c382599d4207e5c (HEAD, origin/master, origin/HEAD, master)
+commit bba0464149cf95b478d6740205678aec7ce8f60d (HEAD, origin/master, origin/HEAD, master)
+Author: jose perez <sinfallas@gmail.com>
+Date:   Thu Jul 23 14:46:04 2015 -0430
+
+    * se agrega lightdm a la lista de paquetes
+
+commit 606d3941ea492df501670d5bc8de1ad0c2c359e4
+Author: jose perez <sinfallas@gmail.com>
+Date:   Thu Jul 23 09:18:42 2015 -0430
+
+    * changelog
+
+commit 300ec6f995722ded9852589a4c382599d4207e5c
 Author: jose perez <sinfallas@gmail.com>
 Date:   Thu Jul 23 09:18:24 2015 -0430
 
