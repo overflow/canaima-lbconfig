@@ -1,4 +1,17 @@
-commit 3a0802108f85ec145a7bfe2acc1dd274c4eba68f (HEAD, origin/master, origin/HEAD, master)
+commit 0d9db74a48e80445df39f920d61175ccf19d86e6 (HEAD, origin/master, origin/HEAD, master)
+Author: jose perez <sinfallas@gmail.com>
+Date:   Thu Jul 23 08:35:56 2015 -0430
+
+    * se coloca la lista de dependencias actualizada
+    * se coloca la informacion del repositorio de libreoffice
+
+commit 253e35274faf7e0def034033395eee13e1967548
+Author: jose perez <sinfallas@gmail.com>
+Date:   Wed Jul 22 16:59:44 2015 -0430
+
+    * changelog
+
+commit 3a0802108f85ec145a7bfe2acc1dd274c4eba68f
 Author: jose perez <sinfallas@gmail.com>
 Date:   Wed Jul 22 16:59:08 2015 -0430
 
