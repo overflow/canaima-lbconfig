@@ -1,4 +1,16 @@
-commit bba0464149cf95b478d6740205678aec7ce8f60d (HEAD, origin/master, origin/HEAD, master)
+commit b3a48ce04dc1d91c3bcf7e5c09b278404470ab44 (HEAD, origin/master, origin/HEAD, master)
+Author: jose perez <sinfallas@gmail.com>
+Date:   Thu Jul 23 14:56:20 2015 -0430
+
+    * se agrega el script para cambiar la clave
+
+commit 8f39ef409fce9d74ac0378c3cfdcd640fb54e810
+Author: jose perez <sinfallas@gmail.com>
+Date:   Thu Jul 23 14:47:51 2015 -0430
+
+    * changelog
+
+commit bba0464149cf95b478d6740205678aec7ce8f60d
 Author: jose perez <sinfallas@gmail.com>
 Date:   Thu Jul 23 14:46:04 2015 -0430
 
