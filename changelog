@@ -1,4 +1,16 @@
-commit b3a48ce04dc1d91c3bcf7e5c09b278404470ab44 (HEAD, origin/master, origin/HEAD, master)
+commit 4e2bcfa4aef774f939188f8440dd65af9c06aec3 (HEAD, origin/master, origin/HEAD, master)
+Author: jose perez <sinfallas@gmail.com>
+Date:   Thu Jul 23 17:50:15 2015 -0430
+
+    * se modifica el menu de arranque
+
+commit b1d6384bc109645fbf5d2e4e134d1d062490bdb2
+Author: jose perez <sinfallas@gmail.com>
+Date:   Thu Jul 23 14:57:31 2015 -0430
+
+    * changelog
+
+commit b3a48ce04dc1d91c3bcf7e5c09b278404470ab44
 Author: jose perez <sinfallas@gmail.com>
 Date:   Thu Jul 23 14:56:20 2015 -0430
 
