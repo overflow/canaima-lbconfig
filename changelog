@@ -1,4 +1,16 @@
-commit 0d9db74a48e80445df39f920d61175ccf19d86e6 (HEAD, origin/master, origin/HEAD, master)
+commit 300ec6f995722ded9852589a4c382599d4207e5c (HEAD, origin/master, origin/HEAD, master)
+Author: jose perez <sinfallas@gmail.com>
+Date:   Thu Jul 23 09:18:24 2015 -0430
+
+    * se corrige el problema con libreoffice
+
+commit f029c81a442c8fd1b37b846c6704486ed59f8a00
+Author: jose perez <sinfallas@gmail.com>
+Date:   Thu Jul 23 08:36:35 2015 -0430
+
+    * changelog
+
+commit 0d9db74a48e80445df39f920d61175ccf19d86e6
 Author: jose perez <sinfallas@gmail.com>
 Date:   Thu Jul 23 08:35:56 2015 -0430
 
