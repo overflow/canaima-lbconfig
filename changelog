@@ -1,4 +1,16 @@
-commit a725cee2949b1f1e1720aa88acde8ecc076d8163 (HEAD, origin/master, origin/HEAD, master)
+commit d785054441d638571c952b522b128ff74eb580b5 (HEAD, origin/master, origin/HEAD, master)
+Author: jose perez <sinfallas@gmail.com>
+Date:   Wed Jul 29 20:28:52 2015 -0430
+
+    * se agregan los metapaquetes
+
+commit 3afa500e17d511cef5940090f3afc1ef5016c75d
+Author: jose perez <sinfallas@gmail.com>
+Date:   Mon Jul 27 19:09:50 2015 -0430
+
+    * changelog
+
+commit a725cee2949b1f1e1720aa88acde8ecc076d8163
 Author: jose perez <sinfallas@gmail.com>
 Date:   Mon Jul 27 19:09:20 2015 -0430
 
